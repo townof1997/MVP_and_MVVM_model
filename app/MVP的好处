@@ -1,0 +1,5 @@
+内存泄漏的情况：file流未关闭
+                sqlite的游标未关闭
+                service未关闭
+
+                contentprovider未关闭
