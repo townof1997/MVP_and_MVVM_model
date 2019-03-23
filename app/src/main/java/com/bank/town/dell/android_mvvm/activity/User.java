@@ -3,7 +3,9 @@ package com.bank.town.dell.android_mvvm.activity;
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 import android.databinding.BindingAdapter;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bank.town.dell.android_mvp.BR;
 import com.squareup.picasso.Picasso;
@@ -64,6 +66,10 @@ public class User extends BaseObservable{
     @BindingAdapter("bind:header")
     public static void  getImage(ImageView view,String url) {
         Picasso.with(view.getContext()).load(url).into(view);
+    }
+
+    public void clickImg(View view) {
+        Toast.makeText(view.getContext(), getName(), Toast.LENGTH_SHORT).show();
     }
 
 }

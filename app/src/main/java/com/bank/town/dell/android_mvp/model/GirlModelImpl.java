@@ -15,17 +15,17 @@ public class GirlModelImpl implements IGirlModel {
     public void LoadGirl(GirlOnLoadListener girlOnLoadListener) {
         List<Girl> data = new ArrayList<>();
         data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
+        data.add(new Girl(R.drawable.f2, "五颗星", "五千蜜儿夏装新款"));
+        data.add(new Girl(R.drawable.f3, "五颗星", "五千蜜儿夏装新款"));
         data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
+        data.add(new Girl(R.drawable.f2, "五颗星", "五千蜜儿夏装新款"));
+        data.add(new Girl(R.drawable.f3, "五颗星", "五千蜜儿夏装新款"));
         data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
+        data.add(new Girl(R.drawable.f2, "五颗星", "五千蜜儿夏装新款"));
+        data.add(new Girl(R.drawable.f3, "五颗星", "五千蜜儿夏装新款"));
         data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
-        data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
-        data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
-        data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
-        data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
-        data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
-        data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
-        data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
-        data.add(new Girl(R.drawable.f1, "五颗星", "五千蜜儿夏装新款"));
+        data.add(new Girl(R.drawable.f2, "五颗星", "五千蜜儿夏装新款"));
+        data.add(new Girl(R.drawable.f3, "五颗星", "五千蜜儿夏装新款"));
         girlOnLoadListener.onComplete(data);
     }
 }
